@@ -1,0 +1,21 @@
+/* 	--------------------------------------------------------
+	+ FRAMEWORKS & LIBS
+	-------------------------------------------------------- */
+@import "bourbon/bourbon";
+@import "normalize";
+@import "neat/neat";
+@import "font-awesome/font-awesome";
+
+@import "mixins";
+
+
+/* 	--------------------------------------------------------
+	+ BASE STYLES
+	-------------------------------------------------------- */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	background-color: black;
+	text-rendering: optimizeLegibility;
+}
