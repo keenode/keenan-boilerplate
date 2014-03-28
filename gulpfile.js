@@ -56,6 +56,7 @@ var paths = {
 						],
 	scripts_compile:	[
 							'bower_components/jquery/dist/jquery.js',
+							'bower_components/bootstrap-sass-official/vendor/assets/javascripts/affix.js',
 							'src/scripts/' + js_filename + '.js'
 						],
 	scripts_lint:		[

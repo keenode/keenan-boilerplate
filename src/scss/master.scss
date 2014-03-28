@@ -1,11 +1,14 @@
 /*	--------------------------------------------------------
 	+ FRAMEWORKS & LIBS
 	-------------------------------------------------------- */
+// Libs
 @import "bourbon/bourbon";
-@import "normalize";
 @import "neat/neat";
+@import "bootstrap/variables"; // Override Bootstrap default variables
+@import "../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap";
 @import "font-awesome/font-awesome";
 
+// Custom Libs
 @import "mixins";
 
 
@@ -14,8 +17,5 @@
 	-------------------------------------------------------- */
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	color: white;
-	background-color: black;
 	text-rendering: optimizeLegibility;
 }
