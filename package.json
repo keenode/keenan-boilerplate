@@ -4,18 +4,19 @@
   "description": "Static HTML5 boilerplate template for new projects.",
   "author": "Keenan Staffieri",
   "dependencies": {
-    "gulp": "~3.5.2",
-    "gulp-concat": "~2.1.7",
-    "gulp-uglify": "~0.2.1",
-    "gulp-imagemin": "~0.1.5",
-    "gulp-sass": "~0.6.0",
-    "gulp-jshint": "~1.4.0",
-    "tiny-lr": "0.0.5",
-    "express": "~3.4.8",
-    "connect-livereload": "~0.3.2",
-    "gulp-livereload": "~1.1.1",
-    "gulp-minify-css": "~0.3.0",
-    "gulp-htmlbuild": "~0.1.1",
-    "gulp-plumber": "~0.5.6"
+    "gulp": "*",
+    "gulp-concat": "^2.2.0",
+    "gulp-uglify": "*",
+    "gulp-imagemin": "*",
+    "gulp-sass": "^0.7.1",
+    "gulp-jshint": "^1.5.1",
+    "tiny-lr": "*",
+    "express": "^4.0.0-rc4",
+    "connect-livereload": "*",
+    "gulp-livereload": "^1.2.0",
+    "gulp-minify-css": "*",
+    "gulp-htmlbuild": "^0.2.0",
+    "gulp-plumber": "*",
+    "gulp-clean": "^0.2.4"
   }
 }
