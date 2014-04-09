@@ -50,13 +50,14 @@ var css_filename = 'master';
 /*	--------------------------------------------------------
 	+ PATHS
 	-------------------------------------------------------- */
-var bootstrap_js_path = 'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/';
+var bower_folder = 'bower_components';
+var bootstrap_js_path = bower_folder + '/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/';
 var paths = {
 	styles:				[
 							'src/scss/**/*.{scss,sass}'
 						],
 	scripts_compile:	[
-							'bower_components/jquery/dist/jquery.js',
+							bower_folder + '/jquery/dist/jquery.js',
 							bootstrap_js_path + 'affix.js',
 							bootstrap_js_path + 'alert.js',
 							bootstrap_js_path + 'button.js',
