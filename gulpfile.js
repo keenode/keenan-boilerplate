@@ -50,24 +50,25 @@ var css_filename = 'master';
 /*	--------------------------------------------------------
 	+ PATHS
 	-------------------------------------------------------- */
+var bootstrap_js_path = 'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/';
 var paths = {
 	styles:				[
 							'src/scss/**/*.{scss,sass}'
 						],
 	scripts_compile:	[
 							'bower_components/jquery/dist/jquery.js',
-							'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js',
-							'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js',
-							'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js',
-							'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js',
-							'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js',
-							'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js',
-							'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js',
-							'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js',
-							'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js',
-							'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js',
-							'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js',
-							'bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js',
+							bootstrap_js_path + 'affix.js',
+							bootstrap_js_path + 'alert.js',
+							bootstrap_js_path + 'button.js',
+							bootstrap_js_path + 'carousel.js',
+							bootstrap_js_path + 'collapse.js',
+							bootstrap_js_path + 'dropdown.js',
+							bootstrap_js_path + 'tab.js',
+							bootstrap_js_path + 'transition.js',
+							bootstrap_js_path + 'scrollspy.js',
+							bootstrap_js_path + 'modal.js',
+							bootstrap_js_path + 'tooltip.js',
+							bootstrap_js_path + 'popover.js',
 							'src/scripts/' + js_filename + '.js'
 						],
 	scripts_lint:		[
