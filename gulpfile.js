@@ -263,4 +263,4 @@ gulp.task('watch', function() {
 
 // The default task (called when you run `gulp`)
 gulp.task('default', ['clean-styles', 'clean-scripts', 'clean-images', 'styles-dev', 'js-lint', 'scripts', 'copy-scripts', 'images', 'htmlbuild', 'serve', 'watch']);
-gulp.task('prod', ['clean-styles', 'clean-scripts', 'clean-images', 'set-prod', 'styles', 'js-lint', 'scripts', 'copy-scripts', 'images', 'htmlbuild', 'serve', 'watch']);
+gulp.task('prod', ['clean-styles', 'clean-scripts', 'clean-images', 'set-prod', 'styles', 'js-lint', 'scripts', 'copy-scripts', 'images', 'htmlbuild']);
