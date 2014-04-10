@@ -8,7 +8,6 @@
     "gulp-concat": "^2.2.0",
     "gulp-uglify": "0.2.1",
     "gulp-imagemin": "0.1.5",
-    "gulp-sass": "^0.7.1",
     "gulp-jshint": "^1.5.1",
     "tiny-lr": "0.0.5",
     "express": "^4.0.0-rc4",
