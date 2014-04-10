@@ -1,11 +1,16 @@
 /*	--------------------------------------------------------
 	+ FRAMEWORKS & LIBS
 	-------------------------------------------------------- */
-// Libs
-@import "bourbon/bourbon";
+
+/** Bourbon **/
+@import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
 @import "neat/neat";
+
+/** Twitter Bootstrap **/
 @import "bootstrap/variables"; // Override Bootstrap default variables
 @import "../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap";
+
+/** Font Awesome **/
 @import "font-awesome/font-awesome";
 
 // Custom Libs

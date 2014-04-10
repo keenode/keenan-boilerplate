@@ -1,11 +1,13 @@
 /*	--------------------------------------------------------
 	+ FRAMEWORKS & LIBS
 	-------------------------------------------------------- */
+/** Bourbon **/
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/** Twitter Bootstrap **/
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -4367,6 +4369,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+/** Font Awesome **/
 /*!
  *  Font Awesome 4.0.3 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
