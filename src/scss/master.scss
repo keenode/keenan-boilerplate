@@ -2,9 +2,11 @@
 	+ FRAMEWORKS & LIBS
 	-------------------------------------------------------- */
 
-/** Bourbon **/
+/** Bourbon Mixins **/
 @import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
-@import "neat/neat";
+
+/** Bourbon Neat Grid **/
+@import "../../bower_components/neat/app/assets/stylesheets/neat";
 
 /** Twitter Bootstrap **/
 @import "bootstrap/variables"; // Override Bootstrap default variables

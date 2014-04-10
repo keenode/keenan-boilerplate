@@ -3,7 +3,7 @@ var gulp = require('gulp');
 /*	--------------------------------------------------------
 	+ GULP PLUGINS
 	-------------------------------------------------------- */
-var sass		= require('gulp-sass'),
+var sass		= require('gulp-ruby-sass'),
 	minifyCSS	= require('gulp-minify-css'),
 	jshint		= require('gulp-jshint'),
 	concat		= require('gulp-concat'),
@@ -133,7 +133,7 @@ gulp.task('styles-dev', function() {
 		.pipe(plumber())
 		// Set errLogToConsole to 'true' to prevent gulp from
 		// stopping on errors.
-        .pipe(sass({ errLogToConsole: true }))
+        .pipe(sass())
         .pipe(gulp.dest('public/css'))
         .pipe(refresh(lrserver));
 });
